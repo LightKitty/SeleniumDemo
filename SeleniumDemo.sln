@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.1062
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeleniumDemo", "SeleniumDemo\SeleniumDemo.csproj", "{5A379852-593D-494D-A98A-955C785FDE06}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeleniumDemo.ConsoleTest", "SeleniumDemo\SeleniumDemo.ConsoleTest.csproj", "{5A379852-593D-494D-A98A-955C785FDE06}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeleniumDemo.Test", "SeleniumDemo.Test\SeleniumDemo.Test.csproj", "{4946854B-B230-4EED-8824-D01FF66BC8F6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{5A379852-593D-494D-A98A-955C785FDE06}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5A379852-593D-494D-A98A-955C785FDE06}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5A379852-593D-494D-A98A-955C785FDE06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4946854B-B230-4EED-8824-D01FF66BC8F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4946854B-B230-4EED-8824-D01FF66BC8F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4946854B-B230-4EED-8824-D01FF66BC8F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4946854B-B230-4EED-8824-D01FF66BC8F6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

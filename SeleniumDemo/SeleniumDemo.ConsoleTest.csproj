@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{5A379852-593D-494D-A98A-955C785FDE06}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>SeleniumDemo</RootNamespace>
-    <AssemblyName>SeleniumDemo</AssemblyName>
+    <RootNamespace>SeleniumDemo.ConsoleTest</RootNamespace>
+    <AssemblyName>SeleniumDemo.ConsoleTest</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -48,6 +48,17 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Selenium.Support">
+      <Version>4.0.0-beta2</Version>
+    </PackageReference>
+    <PackageReference Include="Selenium.WebDriver">
+      <Version>4.0.0-beta2</Version>
+    </PackageReference>
+    <PackageReference Include="Selenium.WebDriverBackedSelenium">
+      <Version>4.0.0-beta2</Version>
+    </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
